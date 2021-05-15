@@ -1,0 +1,98 @@
+body {
+    font-family: Alatsi;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Alatsi;
+    src : url(Alatsi-Regular.ttf)
+}
+.background {
+    background-image: url(london.jpg);
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    filter: brightness(75%);
+    z-index: 1;
+}
+.box {
+    position: fixed;
+    width: 350px;
+    height: 550px;
+    left: 150px;
+    top: 70px; 
+    box-shadow: 0px 2px 2px;
+    background: #FFFFFF;
+    z-index: 2;
+}
+.register {
+    position: absolute;
+    padding: 20px;
+    width: 350px;
+    height: 550px;
+    box-sizing: border-box;
+    color: #595959;
+}
+h1 {
+    margin: 20px 70px; 
+    font-weight: normal;
+    font-style: normal;
+    font-size: 33px;
+    color: #3291E8;
+}
+h2 {
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 180px;
+    margin-top: 10px;
+
+}
+.login {
+    margin-left: 75px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: black;
+}
+input[type=text], input[type=password] {
+    display: inline-block;
+    font-size: 17px ;
+    font-family: Alatsi;
+    color: #B9B3B3;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    margin: 10px 0px;
+    border: 1px solid #7E7D7D;
+    box-sizing: border-box;
+}
+button[type=submit] {
+    display: inline-block;
+    background-color: #3291E8;
+    color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    font-family: Alatsi;
+    font-size: 22px;
+    padding: 5px 5px;
+    border: none;
+    margin: 15px 0px;
+    box-sizing: border-box;
+}
+input[type=checkbox] {
+    display: inline-block;
+    color:  #B9B3B3;
+    font-family: Alatsi;
+}
+a {
+    position: absolute;
+    width: 148px;
+    height: 22px;
+    left: 187px;
+    top: 283px;
+    text-decoration: none;
+    color: #3291E8;
+}
